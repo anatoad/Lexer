@@ -5,7 +5,7 @@ from src.Lexer import Lexer
 
 class TestLexer(unittest.TestCase):
     tests_passed: int = 0
-    tests_count: int = 10
+    tests_count: int = 2
 
     def __init__(self, methodName: str = "runTest") -> None:
         super().__init__(methodName)
